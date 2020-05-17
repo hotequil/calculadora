@@ -1,3 +1,7 @@
+$('header').css('display', 'block');
+$('main').css('display', 'flex');
+$('footer').css('display', 'block');
+
 let firstNumber, secondNumber, sign, result = undefined;
 let boxResult = $('#box-result');
 let firstTextOnBoxResult = boxResult.text();
@@ -107,7 +111,7 @@ const add = function(arg, dot){
                 if(dot){
                     isThereFirstNumber() ? firstNumber += dot : firstNumber = (0 + dot);
                 } else{
-                    isThereFirstNumber() ? firstNumber += arg : firstNumber = arg;
+                    isThereFirstNumber() ? firstNumber += arg : (arg === '0' && !firstNumber ? firstNumber = '0' + arg : firstNumber = arg);
                 };
 
                 createResult(firstNumber);
@@ -124,7 +128,7 @@ const add = function(arg, dot){
                 if(dot){
                     isThereSecondNumber() ? secondNumber += dot : secondNumber = (0 + dot);
                 } else{
-                    isThereSecondNumber() ? secondNumber += arg : secondNumber = arg;
+                    isThereSecondNumber() ? secondNumber += arg : (arg === '0' && !secondNumber ? secondNumber = '0' + arg : secondNumber = arg);
                 };
 
                 createResult(secondNumber);
