@@ -323,6 +323,10 @@ a{
     margin-bottom: 0 !important;
 }
 
+.lowercase{
+    text-transform: lowercase;
+}
+
 .link{
     color: #0091ea;
     position: relative;
