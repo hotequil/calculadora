@@ -76,7 +76,7 @@
     -ms-grid-column-span: 7;
     padding: .5em;
     grid-area: result;
-    background-color: #40c4ff;
+    background-color: #0091ea;
     border-radius: 2px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -226,7 +226,7 @@
 .calculator__container .calculator__container__button{
     -webkit-box-shadow: 0 1px 3px 0 rgba(27,27,27,.2), 0 1px 1px 0 rgba(27,27,27,.14), 0 2px 1px -1px rgba(27,27,27,.12);
     box-shadow: 0 1px 3px 0 rgba(27,27,27,.2), 0 1px 1px 0 rgba(27,27,27,.14), 0 2px 1px -1px rgba(27,27,27,.12);
-    background-color: #40c4ff;
+    background-color: #0091ea;
     color: #fefefe;
     font-size: 1em;
     min-width: 55px;
@@ -302,12 +302,12 @@ a{
 }
 
 *::-moz-selection{
-    background: #40c4ff;
+    background: #0091ea;
     color: #fefefe;
 }
 
 *::selection{
-    background: #40c4ff;
+    background: #0091ea;
     color: #fefefe;
 }
 
@@ -324,7 +324,7 @@ a{
 }
 
 .link{
-    color: #40c4ff;
+    color: #0091ea;
     position: relative;
     -webkit-transition: opacity .5s ease-in-out;
     -o-transition: opacity .5s ease-in-out;
@@ -338,7 +338,7 @@ a{
     position: absolute;
     bottom: -2px;
     width: 0;
-    background-color: #40c4ff;
+    background-color: #0091ea;
     -webkit-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
